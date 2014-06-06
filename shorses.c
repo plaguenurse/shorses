@@ -45,7 +45,7 @@ int main(void)
 	// intro screen
 	printw("\n\n\n\tShorses - A Shooter game for Curses\n\n");
 	printw("\tUse arrow keys to move and space to shoot. \n\tpress q at any time to quit. \n\tpress any key to begin");
-	
+	refresh();
 	getch();
 	
 	//initialize null
